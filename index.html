@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DevOps Project – Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>This static website is hosted using AWS S3 and versioned with GitHub</p>
+    </header>
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>Hello! I am <strong>Devik Sharma</strong>, a passionate DevOps enthusiast learning cloud, automation, and CI/CD pipelines.</p>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>AWS</li>
+            <li>Git & GitHub</li>
+            <li>Docker</li>
+            <li>HTML, CSS, JS</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <form onsubmit="showThanks(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+        <p id="thanks"></p>
+    </section>
+
+    <footer>
+        <p>© 2025 Devik Sharma | DevOps Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
